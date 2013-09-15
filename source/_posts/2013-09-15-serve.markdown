@@ -3,13 +3,44 @@ layout: post
 title: "Serve"
 date: 2013-09-15 10:59
 comments: true
-published: false
 categories: alphabet-supremacy
 ---
+
+I'm hijacking this week's carefully chosen word to talk about changes to the
+way I'm serving my blogs, but before I get there, have some random musings.
+
+It's a funny old word, 'serve'.  We use it to talk about another computer, a
+server, that does things for your computer, a client.
+
+When we use "serve" of people, we almost always have a hierarchy in mind.  The
+one who serves is lower than the one being served.
+
+And yet, sometimes we grant people the title "servant" in order to do them
+honour.  Thus the most powerful person in Britian is the "first servant", or
+Prime Minister.  This is perhaps due to a
+[Christian legacy](http://www.biblegateway.com/passage/?search=Mark%2010:42-45&version=NIV).
+
+Certainly with computers on the web, it's this way.  Servers act only on the
+initiative of their client, and well run services put the needs of their
+clients well ahead of their own.  It's far from a perfect metaphor, since
+well-behaved clients do exactly what they are told.
+
+Curiously, the metaphor of the hierarchy is inverted.  While a human servant
+is considered below a human master, a computer client invariably downloads
+from its server, or pushes _up_ to its server, thus placing the server above
+the client.
+
+<!-- more -->
+
+## What's happened?
 
 I've moved this blog and [my technical blog](http://code.mumak.net) over to
 [Octopress](http://octopress.org), which is a very geeky way of blogging that
 allows me to write blog posts using the tools I use to write code.
+
+## Why the change?
+
+### More fun while writing
 
 Blogger is nice for what it is, but it's actually a hassle to use for
 composition.  It doesn't have rich styles for formatting, doesn't allow
@@ -20,20 +51,22 @@ It has great, built-in support for analysing the traffic that comes to the
 site, but that's not something that's very useful to me.  It turns out, gentle
 reader, that you are one of a very select group.
 
-The new blog pages are being served by [Heroku](http://www.heroku.com/), in a
-manner which I do not yet understand.  These things are liable to change.
+My hope is that by serving my blogs with fresher technologies that I actually
+enjoy using, and by lowering the barrier to publication, I'll have something
+that is more interesting to me and perhaps more interesting to others.
 
-My plan ultimately is to move all of my technical properties – blogs, project
-pages, essays – under the [mumak.net](http://mumak.net) domain name and have
-the [code.mumak.net](http://code.mumak.net) URLs redirect there.  The
-[life.mumak.net](http://life.mumak.net) would move to my halfwise domains.
+### Clearer online presence
 
-mumak.net is the more established of the two domains by a long way, and is
-more associated with my programming and open source work.  The current home
-page is extremely stale, and does a poor job of reflecting my interests.  My
-hope is that by serving it with fresher technologies that I actually enjoy
-using, and by lowering the barrier to publication, I'll have something that
-is more interesting to me and perhaps more interesting to others.
+I'm not at all happy with [mumak.net](http://mumak.net).  I want it to be
+focused on my technical and open source interests and to incorporate my
+technical blog, currently served from [code.mumak.net](http://code.mumak.net).
+
+The [life.mumak.net](http://life.mumak.net) blog and related content would
+then move to my halfwise domains, which aren't anywhere near as established.
+
+The hope is that this will let me do a better job with both.
+
+### Ramping up technical presence
 
 The
 [Alphabet Supremacy](http://life.mumak.net/2013/01/the-alphabet-supremacy.html)
@@ -43,10 +76,40 @@ for technical writing has been whetted by stimulating conversations at
 [work](http://www.google.com/about/jobs/) and (perversely but predictably) by
 being compelled to write about other things.
 
+I've been using [ThoughtStreams](https://thoughtstreams.io/jml/) to help get
+some of that stuff drafted.  The switch in technologies will make moving that
+to my own domains easier.
+
+## Technical details
+
+I tried [ruhoh](http://ruhoh.com/) initially, but found it to be rather
+complicated, and struggled to find themes that I didn't hate.  Some folk
+talked about [liquidluck](http://liquidluck.readthedocs.org/en/latest/), which
+I would like because it's written in Python and thus more hackable by me, but
+after some initial struggles I decided to go with something a little more
+popular.
+
+Thus, [octopress](http://octopress.org) was the next port of call and so far
+seems to have worked out OK.  Perhaps I'll experiment with moving to
+[Jekyll](http://jekyllrb.com/) or try liquidluck again.  Now that I'm off
+blogger and have all of my data in relatively parseable formats, it's much
+easier to experiment.
+
+The new blog pages are being served by [Heroku](http://www.heroku.com/), in a
+manner which I do not yet understand.  I picked it because it's free, because
+there were
+[instructions in the octopress documentation](http://octopress.org/docs/deploying/heroku/),
+because I already have github pages and didn't want to bother figuring out
+have to have three different site, ad I _really_ don't want to host things
+myself anymore.
+
+## What happened to the comments?
+
+All of the existing comments are still on the site, but new comments are
+disabled for now, and possibly forever.  If you think I should put them back
+on, please feel free to make your case on the social network of your choice.
+
 Anyway, please let me know if your blog reading experience is disrupted in any
 way.  I've tried hard to keep all of the old links still working, but it's
 really easy to make mistakes.
 
-Comments are disabled for now, and possibly forever.  If you think I should
-put them back on, please feel free to make your case on the social network of
-your choice.

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: alphabet-supremacy | Echo and Bounce]]></title>
   <link href="http://life.mumak.net/blog/categories/alphabet-supremacy/atom.xml" rel="self"/>
   <link href="http://life.mumak.net/"/>
-  <updated>2013-09-15T12:43:13+01:00</updated>
+  <updated>2013-09-15T13:57:45+01:00</updated>
   <id>http://life.mumak.net/</id>
   <author>
     <name><![CDATA[Jonathan Lange]]></name>
@@ -12,6 +12,121 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Serve]]></title>
+    <link href="http://life.mumak.net/2013/09/serve.html"/>
+    <updated>2013-09-15T10:59:00+01:00</updated>
+    <id>http://life.mumak.net/2013/09/serve</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m hijacking this week&rsquo;s carefully chosen word to talk about changes to the
+way I&rsquo;m serving my blogs, but before I get there, have some random musings.</p>
+
+<p>It&rsquo;s a funny old word, &lsquo;serve&rsquo;.  We use it to talk about another computer, a
+server, that does things for your computer, a client.</p>
+
+<p>When we use &ldquo;serve&rdquo; of people, we almost always have a hierarchy in mind.  The
+one who serves is lower than the one being served.</p>
+
+<p>And yet, sometimes we grant people the title &ldquo;servant&rdquo; in order to do them
+honour.  Thus the most powerful person in Britian is the &ldquo;first servant&rdquo;, or
+Prime Minister.  This is perhaps due to a
+<a href="http://www.biblegateway.com/passage/?search=Mark%2010:42-45&amp;version=NIV">Christian legacy</a>.</p>
+
+<p>Certainly with computers on the web, it&rsquo;s this way.  Servers act only on the
+initiative of their client, and well run services put the needs of their
+clients well ahead of their own.  It&rsquo;s far from a perfect metaphor, since
+well-behaved clients do exactly what they are told.</p>
+
+<p>Curiously, the metaphor of the hierarchy is inverted.  While a human servant
+is considered below a human master, a computer client invariably downloads
+from its server, or pushes <em>up</em> to its server, thus placing the server above
+the client.</p>
+
+<!-- more -->
+
+
+<h2>What&rsquo;s happened?</h2>
+
+<p>I&rsquo;ve moved this blog and <a href="http://code.mumak.net">my technical blog</a> over to
+<a href="http://octopress.org">Octopress</a>, which is a very geeky way of blogging that
+allows me to write blog posts using the tools I use to write code.</p>
+
+<h2>Why the change?</h2>
+
+<h3>More fun while writing</h3>
+
+<p>Blogger is nice for what it is, but it&rsquo;s actually a hassle to use for
+composition.  It doesn&rsquo;t have rich styles for formatting, doesn&rsquo;t allow
+footnotes, and has very poor support for managing literal line breaks, which
+is critically important when you are writing about source code.</p>
+
+<p>It has great, built-in support for analysing the traffic that comes to the
+site, but that&rsquo;s not something that&rsquo;s very useful to me.  It turns out, gentle
+reader, that you are one of a very select group.</p>
+
+<p>My hope is that by serving my blogs with fresher technologies that I actually
+enjoy using, and by lowering the barrier to publication, I&rsquo;ll have something
+that is more interesting to me and perhaps more interesting to others.</p>
+
+<h3>Clearer online presence</h3>
+
+<p>I&rsquo;m not at all happy with <a href="http://mumak.net">mumak.net</a>.  I want it to be
+focused on my technical and open source interests and to incorporate my
+technical blog, currently served from <a href="http://code.mumak.net">code.mumak.net</a>.</p>
+
+<p>The <a href="http://life.mumak.net">life.mumak.net</a> blog and related content would
+then move to my halfwise domains, which aren&rsquo;t anywhere near as established.</p>
+
+<p>The hope is that this will let me do a better job with both.</p>
+
+<h3>Ramping up technical presence</h3>
+
+<p>The
+<a href="http://life.mumak.net/2013/01/the-alphabet-supremacy.html">Alphabet Supremacy</a>
+project has meant that almost all of my writing time has been devoted to
+non-technical things.  It&rsquo;s fun, but my appetite for open source hacking and
+for technical writing has been whetted by stimulating conversations at
+<a href="http://www.google.com/about/jobs/">work</a> and (perversely but predictably) by
+being compelled to write about other things.</p>
+
+<p>I&rsquo;ve been using <a href="https://thoughtstreams.io/jml/">ThoughtStreams</a> to help get
+some of that stuff drafted.  The switch in technologies will make moving that
+to my own domains easier.</p>
+
+<h2>Technical details</h2>
+
+<p>I tried <a href="http://ruhoh.com/">ruhoh</a> initially, but found it to be rather
+complicated, and struggled to find themes that I didn&rsquo;t hate.  Some folk
+talked about <a href="http://liquidluck.readthedocs.org/en/latest/">liquidluck</a>, which
+I would like because it&rsquo;s written in Python and thus more hackable by me, but
+after some initial struggles I decided to go with something a little more
+popular.</p>
+
+<p>Thus, <a href="http://octopress.org">octopress</a> was the next port of call and so far
+seems to have worked out OK.  Perhaps I&rsquo;ll experiment with moving to
+<a href="http://jekyllrb.com/">Jekyll</a> or try liquidluck again.  Now that I&rsquo;m off
+blogger and have all of my data in relatively parseable formats, it&rsquo;s much
+easier to experiment.</p>
+
+<p>The new blog pages are being served by <a href="http://www.heroku.com/">Heroku</a>, in a
+manner which I do not yet understand.  I picked it because it&rsquo;s free, because
+there were
+<a href="http://octopress.org/docs/deploying/heroku/">instructions in the octopress documentation</a>,
+because I already have github pages and didn&rsquo;t want to bother figuring out
+have to have three different site, ad I <em>really</em> don&rsquo;t want to host things
+myself anymore.</p>
+
+<h2>What happened to the comments?</h2>
+
+<p>All of the existing comments are still on the site, but new comments are
+disabled for now, and possibly forever.  If you think I should put them back
+on, please feel free to make your case on the social network of your choice.</p>
+
+<p>Anyway, please let me know if your blog reading experience is disrupted in any
+way.  I&rsquo;ve tried hard to keep all of the old links still working, but it&rsquo;s
+really easy to make mistakes.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rat]]></title>
@@ -53,29 +168,6 @@ Sometimes I wonder how <i>The Flash</i>&nbsp;can stand it. Not only does he have
     <id>http://life.mumak.net/2013/07/office</id>
     <content type="html"><![CDATA[<div class='post'>
 The day starts with the sound of the ocean gently, steadily and, alas, digitally getting louder and louder until I can do the sums required to turn it off. &nbsp;It's followed by a lot of hot water, a few cuts to the face, a walk past a church cum Indian cultural centre cum Ingress portal before I take a short ride getting way too familiar with the sights and scents of commuters' armpits. &nbsp;If I took the slightly longer route, I'd walk past the place Gandhi lived when he was a law student, but I won't because it's hot and I'm carrying fifteen pounds of kickboxing gear on my back.<br /><br />Victoria Station is vast and frenetic. &nbsp;Everyone is in the way. &nbsp;It is impossible to not be stressed here. &nbsp;Well, maybe Gandhi could have managed it. I'm hungry and everything smells of bakery. &nbsp;I don't eat much bread these days, but that doesn't mean I don't want to leap the counter and forcefully grab a half-dozen croissants. &nbsp;The Japanese couple struggling up the stairs with suitcases twice as large as themselves misinterpret my snarl. &nbsp;I really should offer to help, but the moment passes.<br /><br />I shuffle slowly through the Tallest Glass Revolving Doors in Europe, fishing in my pocket for my ID to show to building security. &nbsp;Every time I see any security guards or bouncers these days, I wonder what it would be like to fight them. &nbsp;There's one guy here who I reckon would be vicious. &nbsp;He's small and looks maybe forty-five or fifty, but he's always weirdly alert. &nbsp;When I say "Good morning", he seems to regard it as a distraction from his watch.<br /><br />Once I'm through, I get to my floor. &nbsp;By now it's familiar to me, but I still take the time to appreciate it. &nbsp;The corridors aren't just soulless tunnels, but rich, interesting places with colour and texture. &nbsp;The deli &amp; micro-kitchens are cosy and relaxed. &nbsp;My desk maybe technically possibly counts as a cubical, but hasn't ever felt that way to me.<br /><br />The first thing I do is get coffee, which Shakespeare would have called the chief nourisher in life's feast if he only knew what he was on about. &nbsp;The coffee from the push-button machine isn't great, but it works enough to get me ready to use the espresso machine for my sophomore cup.<br /><br />I worked from home for about eight years, in one way or another, and mostly enjoyed it. &nbsp;Now I'm here, I don't miss it at all. &nbsp;Well, sometimes it's a bit noisy, but there's a beautiful, dark, quiet room where I can escape. &nbsp;The food is better, my computer is better, and the company is better.<br /><br />That is, one of the things I enjoy most about my trade is sitting around with a team, working together on something interesting. &nbsp;At my previous job, even though we worked from home mostly, we'd occasionally get together in some random city, sit in a room and hack on something for a solid week. &nbsp;Those weeks (NB:&nbsp;<i>not</i>&nbsp;the weeks where we sat around planning things) were the most fun times in a job that was overall a pretty fun job. &nbsp;So why not do that all the time?<br /><br />The day starts to wind up, I slug my kickboxing bag over my shoulder and head out. &nbsp;There's a different, friendlier security guard on duty, but I only really see his back and I think we'd both be uncomfortable if I turned around and said "Good morning". &nbsp;I get to Victoria Station, and though it shouldn't be mathematically possible there are even more people here, and they all hate me for lugging this great bloody thing around, taking up precious standing room. As I'm shoved onto the train to Euston, I can't help but think that I love this city.<br /><span style="background-color: white; font-family: Helvetica; font-size: 13px;"><br class="Apple-interchange-newline" />This post is part of the&nbsp;</span><a href="http://life.mumak.net/2013/01/the-alphabet-supremacy.html" style="background-color: white; font-size: 13px;">Alphabet Supremacy</a><span style="background-color: white; font-family: Helvetica; font-size: 13px;">&nbsp;project, a collaboration between myself and&nbsp;</span><a href="http://life.metagnome.net/" style="background-color: white; font-size: 13px;">Bice Dibley</a><span style="background-color: white; font-family: Helvetica; font-size: 13px;">. He chooses next week's word.</span></div>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Negotiation]]></title>
-    <link href="http://life.mumak.net/2013/07/negotiation.html"/>
-    <updated>2013-07-07T00:00:00+01:00</updated>
-    <id>http://life.mumak.net/2013/07/negotiation</id>
-    <content type="html"><![CDATA[<div class='post'>
-I'm ashamed to say it, but we got absolutely spanked by the real estate agent who let us the flat where we're now living. &nbsp;He talked us into higher rent, a longer lease and dropping the six month break clause. &nbsp;During the process of leasing it, he would hurry us up one day and stall us the next. &nbsp;He'd even tell us dubious half-truths about the place and the landlord. &nbsp;We like the place enough, and might even renew the release, but I don't want to repeat that experience. &nbsp;Coming out with slightly less money and freedom is bad enough, but the process itself is slimy and humiliating.<br /><br />It's not as if that was the first time I've walked away from a negotiation feeling like a sucker. &nbsp;Almost all of my previous tenancies and certain salary negotiations stand out as being terribly handled on my part.<br /><br />I've always felt it's slightly unfair that two of the most important factors in my material happiness – how much I earn and where I live – are so strongly determined by something I'm just not very good at. &nbsp;In the Benign and Enlightened Suzerainty of Jonathania, your compensation and residence would be a function of your skill in some core, valuable profession, such as computer programming.<br /><br />Since, alas, the world is not yet my demesne, I've been trying to level up in negotiation. &nbsp;For a long time, the most helpful thing I read was Valerie Aurora's <a href="http://valerieaurora.org/howto_salary/">HOWTO on salary negotiation</a>, written for women, but useful enough for me. &nbsp;It helped me grok what I mentioned above, that I shouldn't use being a geek as an excuse for being naïve.<br /><br />Then I picked up the <a href="http://www.amazon.co.uk/The-Economist-Negotiation-Guide--Z/dp/1846681693/">Economist A-Z on negotiation</a>. &nbsp;It's a really fun little read, and the ideal Father/Mother's day present for the middle-class classical liberal in your life who already has everything. &nbsp;The highlights are the articles on "zero sum" (negotiation isn't, which is why we haven't had the merchant caste hanged already) and "children" (who play dirty and are thus the best negotiators, but get their comeuppance during courtship).<br /><br />But the most interesting and most recent book I've read on negotiation is Stuart Diamond's "Getting More". &nbsp;In it, Diamond asks us to stop thinking in terms of tactics and negotiating positions and to instead be crystal clear on our goals, understand where the other person is coming from and then help them meet our goals, mostly by framing your goals in a way that makes it easy for them to meet, by trading things of unequal value, and by holding them to their own standards.<br /><br />The book is crammed with anecdotes. &nbsp;No matter how small a slice of this book you take, you will find a positive, upbeat story about how one of his students used these principles to "get more". &nbsp;If you had to drink a shot every time you came across one, they'd be wheeling in the stomach pump halfway through page two. &nbsp;By the end, you've been pummelled with so many that you've forgotten what the book is about.<br /><br />The underlying principles do seem sound, and when I've spoken with people who've read "Crucial Confrontations", they say it very much matches the ideas in that book. &nbsp;I just wish that Diamond had put in more bullet point summaries or something to make the book seem more structured and less meandering.<br /><br />The closest he gets to an actual schema is in his "Planning" section, which has something close to a diagram, but is really just a few lists arranged in a grid. &nbsp;I wish he flagged that and said "this is it, this is the first and last chance you'll have to see everything on one page".<br /><br />There are a few times where his suggestions seem a touch unsavoury. &nbsp;When he talks about trading things of unequal value, he suggests "make emotional payments", which is a fancy way of saying that you should strive to be kind and well-mannered. &nbsp;And if there's a thing that I would be happy to buy for £100 and I negotiate the purchase for £80, then how exactly is that different from tricking the seller out of £20?<br /><br />Sadly, that's all rather hypothetical. &nbsp;The one or two times I've tried to apply the ideas in the book, I've ended up happily and politely doing what I'm told.<br /><br />I just hope that the next real estate agent I deal with throws in a lollipop.<br /><div><br /></div><div><span style="background-color: white; font-family: Helvetica; font-size: 13px;">This post is part of the&nbsp;</span><a href="http://life.mumak.net/2013/01/the-alphabet-supremacy.html" style="background-color: white; font-size: 13px;">Alphabet Supremacy</a><span style="background-color: white; font-family: Helvetica; font-size: 13px;">&nbsp;project, a collaboration between myself and&nbsp;</span><a href="http://life.metagnome.net/" style="background-color: white; font-size: 13px;">Bice Dibley</a><span style="background-color: white; font-family: Helvetica; font-size: 13px;">. He chooses next week's word.</span></div></div>
-
-
-<h2>Comments</h2>
-
-
-<div class='comments'>
-<div class='comment'>
-<div class='author'>Bron<span class='comment-date'> on 2013-07-09 13:21</span></div>
-<div class='content'>
-I feel your pain! Oh man, I really suck at this too. It just goes so against the grain for me. I have wondered if it&#39;s an introvert thing. I actually find it a lot easier to do over the phone or in writing. </div>
-</div>
-</div>
 
 ]]></content>
   </entry>

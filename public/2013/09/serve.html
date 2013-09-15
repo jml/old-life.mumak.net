@@ -1,0 +1,232 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Serve &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2013/09/serve.html">Serve</a></h1>
+		<time>15 September 2013</time>
+	</header>
+		<div class="content">
+			<p>I&rsquo;m hijacking this week&rsquo;s carefully chosen word to talk about changes to the
+way I&rsquo;m serving my blogs, but before I get there, have some random musings.</p>
+
+<p>It&rsquo;s a funny old word, &lsquo;serve&rsquo;.  We use it to talk about another computer, a
+server, that does things for your computer, a client.</p>
+
+<p>When we use &ldquo;serve&rdquo; of people, we almost always have a hierarchy in mind.  The
+one who serves is lower than the one being served.</p>
+
+<p>And yet, sometimes we grant people the title &ldquo;servant&rdquo; in order to do them
+honour.  Thus the most powerful person in Britian is the &ldquo;first servant&rdquo;, or
+Prime Minister.  This is perhaps due to a
+<a href="http://www.biblegateway.com/passage/?search=Mark%2010:42-45&amp;version=NIV">Christian legacy</a>.</p>
+
+<p>Certainly with computers on the web, it&rsquo;s this way.  Servers act only on the
+initiative of their client, and well run services put the needs of their
+clients well ahead of their own.  It&rsquo;s far from a perfect metaphor, since
+well-behaved clients do exactly what they are told.</p>
+
+<p>Curiously, the metaphor of the hierarchy is inverted.  While a human servant
+is considered below a human master, a computer client invariably downloads
+from its server, or pushes <em>up</em> to its server, thus placing the server above
+the client.</p>
+
+<!-- more -->
+
+
+<h2>What&rsquo;s happened?</h2>
+
+<p>I&rsquo;ve moved this blog and <a href="http://code.mumak.net">my technical blog</a> over to
+<a href="http://octopress.org">Octopress</a>, which is a very geeky way of blogging that
+allows me to write blog posts using the tools I use to write code.</p>
+
+<h2>Why the change?</h2>
+
+<h3>More fun while writing</h3>
+
+<p>Blogger is nice for what it is, but it&rsquo;s actually a hassle to use for
+composition.  It doesn&rsquo;t have rich styles for formatting, doesn&rsquo;t allow
+footnotes, and has very poor support for managing literal line breaks, which
+is critically important when you are writing about source code.</p>
+
+<p>It has great, built-in support for analysing the traffic that comes to the
+site, but that&rsquo;s not something that&rsquo;s very useful to me.  It turns out, gentle
+reader, that you are one of a very select group.</p>
+
+<p>My hope is that by serving my blogs with fresher technologies that I actually
+enjoy using, and by lowering the barrier to publication, I&rsquo;ll have something
+that is more interesting to me and perhaps more interesting to others.</p>
+
+<h3>Clearer online presence</h3>
+
+<p>I&rsquo;m not at all happy with <a href="http://mumak.net">mumak.net</a>.  I want it to be
+focused on my technical and open source interests and to incorporate my
+technical blog, currently served from <a href="http://code.mumak.net">code.mumak.net</a>.</p>
+
+<p>The <a href="http://life.mumak.net">life.mumak.net</a> blog and related content would
+then move to my halfwise domains, which aren&rsquo;t anywhere near as established.</p>
+
+<p>The hope is that this will let me do a better job with both.</p>
+
+<h3>Ramping up technical presence</h3>
+
+<p>The
+<a href="http://life.mumak.net/2013/01/the-alphabet-supremacy.html">Alphabet Supremacy</a>
+project has meant that almost all of my writing time has been devoted to
+non-technical things.  It&rsquo;s fun, but my appetite for open source hacking and
+for technical writing has been whetted by stimulating conversations at
+<a href="http://www.google.com/about/jobs/">work</a> and (perversely but predictably) by
+being compelled to write about other things.</p>
+
+<p>I&rsquo;ve been using <a href="https://thoughtstreams.io/jml/">ThoughtStreams</a> to help get
+some of that stuff drafted.  The switch in technologies will make moving that
+to my own domains easier.</p>
+
+<h2>Technical details</h2>
+
+<p>I tried <a href="http://ruhoh.com/">ruhoh</a> initially, but found it to be rather
+complicated, and struggled to find themes that I didn&rsquo;t hate.  Some folk
+talked about <a href="http://liquidluck.readthedocs.org/en/latest/">liquidluck</a>, which
+I would like because it&rsquo;s written in Python and thus more hackable by me, but
+after some initial struggles I decided to go with something a little more
+popular.</p>
+
+<p>Thus, <a href="http://octopress.org">octopress</a> was the next port of call and so far
+seems to have worked out OK.  Perhaps I&rsquo;ll experiment with moving to
+<a href="http://jekyllrb.com/">Jekyll</a> or try liquidluck again.  Now that I&rsquo;m off
+blogger and have all of my data in relatively parseable formats, it&rsquo;s much
+easier to experiment.</p>
+
+<p>The new blog pages are being served by <a href="http://www.heroku.com/">Heroku</a>, in a
+manner which I do not yet understand.  I picked it because it&rsquo;s free, because
+there were
+<a href="http://octopress.org/docs/deploying/heroku/">instructions in the octopress documentation</a>,
+because I already have github pages and didn&rsquo;t want to bother figuring out
+have to have three different site, ad I <em>really</em> don&rsquo;t want to host things
+myself anymore.</p>
+
+<h2>What happened to the comments?</h2>
+
+<p>All of the existing comments are still on the site, but new comments are
+disabled for now, and possibly forever.  If you think I should put them back
+on, please feel free to make your case on the social network of your choice.</p>
+
+<p>Anyway, please let me know if your blog reading experience is disrupted in any
+way.  I&rsquo;ve tried hard to keep all of the old links still working, but it&rsquo;s
+really easy to make mistakes.</p>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/alphabet-supremacy/'>alphabet-supremacy</a>
+	
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->
