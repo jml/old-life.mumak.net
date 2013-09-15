@@ -5,5 +5,6 @@ date: 2013-09-15 10:59
 comments: true
 categories: alphabet-supremacy
 ---
+
 At the moment, this is mucking around with my new way of writing & publishing
 blog posts.  Eventually, it will be my alphabet supremacy post for the week.
