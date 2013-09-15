@@ -6,15 +6,14 @@ comments: true
 sharing: true
 footer: true
 ---
-There's not much that any of us can do to escape the fact that this is,
-ultimately, a personal blog kept by an amateur. It's not a travel blog, food
-blog, web-browsing log nor a life chronicle. It's not about any one thing, but
-is rather a place to put stories, opinions, reflections and other miscellany
-without much in the way of rhyme or reason.
-
 My name is Jonathan Lange.  I'm a colossal geek and love talking shop, but you
 won't find much of that here.  If you're at all interested, check out my
 technical blog, [Mere Code](http://code.mumak.net).
+
+This is personal blog kept by an amateur. It's not a travel blog, food blog,
+web-browsing log nor a life chronicle. It's not about any one thing, but is
+rather a place to put stories, opinions, reflections and other miscellany
+without much in the way of rhyme or reason.
 
 I read an awful lot: it's one of my chief pleasures in life. As such, I post
 quite a lot here about the books I have read. Sometimes, I use this blog
