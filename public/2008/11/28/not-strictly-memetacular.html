@@ -1,0 +1,141 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Not strictly memetacular &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2008/11/28/not-strictly-memetacular.html">Not strictly memetacular</a></h1>
+		<time>28 November 2008</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+So, the idea behind the page 56 thing is to get the book <span style="font-style: italic;">nearest</span> you, not the smartest one or the one you&#8217;re reading or the one with the best line. That&#8217;s what &#8211; oh my, a car crash &#8211; <a href="http://life.mumak.net/2008/11/page-56.html">my last post</a> was about. Still, I came across this in <span style="font-style:italic;">The Illuminatus! Trilogy</span> last night, and thought you might be interested:<br /><br /><blockquote>Besides, he had already formed his own theory about Fernando Poo: he was convinced that BUGGER&#8211;Blowhard&#8217;s Unreformed Gangsters, Goons, and Espionage Renegades, an international conspiracy of criminals and double agents, led by the infamous and mysterious Eric &#8220;the Red&#8221; Blowhard&#8211;was behind it all.</blockquote><br /><br />&#8220;He&#8221; is 00005, a British secret agent. As best as I can tell so far, he&#8217;s a fairly minor character. Seen <span style="font-style:italic;">Quantum of Solace</span> yet? What did you think?</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Speak YOUR Peace<span class='comment-date'> on 2008-12-02 02:22</span></div>
+<div class='content'>
+Ha, this is funny. I JUST completed this game on facebook. The closest book to me was the trilogy.<BR/>I googled the phrase to see what came up&#8230;and here I am. <BR/>The Probability Drive is phenomenal in this case!</div>
+</div>
+<div class='comment'>
+<div class='author'>jml<span class='comment-date'> on 2008-11-30 22:00</span></div>
+<div class='content'>
+That&#8217;s fair enough. Mostly I&#8217;m just sitting back, enjoying the ride and don&#8217;t care very much if any of it ever makes sense.</div>
+</div>
+<div class='comment'>
+<div class='author'>Michael Hudson<span class='comment-date'> on 2008-11-30 21:58</span></div>
+<div class='content'>
+The fact that you are wondering if a character is minor or not in the Illuminatus Trilogy suggests that you might not quite have got how this book works (or otherwise) yet&#8230;</div>
+</div>
+<div class='comment'>
+<div class='author'>spiv<span class='comment-date'> on 2008-11-28 12:08</span></div>
+<div class='content'>
+A few days ago the local cinema was advertising <I>Quantom of Solace</I>.  I wonder what that would have been like!</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

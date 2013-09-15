@@ -1,0 +1,118 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Occasion &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2013/07/28/occasion.html">Occasion</a></h1>
+		<time>28 July 2013</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+Phoning this one in, I&#8217;m afraid, since today has been that rarest of occasions: a Sunday almost entirely to myself.<br /><br />My normal Sunday consists of me getting up at around 9am and heading to St Johns church, picking up a coffee on the way. &nbsp;St Johns is an extremely casual church on a housing estate, embedded in some hideous brick skyscrapers. It nominally starts at 11am, but I&#8217;m on a roster often enough to need to be there by 10 or 10:30 a lot of weeks. &nbsp;Jolie&#8217;s always there before 10, grooving away on her bass.<br /><br />By the time the service is finished, and we&#8217;ve done chatting with everyone, it&#8217;s about 1:30pm and we start wandering home. When the weather is even a little bit nice, we walk, since it&#8217;s pleasant and mostly flat. I carry Jolie&#8217;s bass so people will think I&#8217;m cooler than I actually am.<br /><br />Then we get home, and I start bashing out my Alphabet Supremacy piece for the week, Jolie makes us lunch and when all that&#8217;s done we chill out until about 4:30 - 5pm when we leave for the things we&#8217;re rostered on for at Christ Church Mayfair. We don&#8217;t get back from there until around 9:30pm.<br /><br />I do all of that because it&#8217;s important to me. But sometimes, it&#8217;s nice to have a solid chunk of time when I just get things done.<br /><br />Today has provided such an opportunity, as I&#8217;ve been obliged to spend the day at home. It&#8217;s been wonderful. I&#8217;ve been able to do so many dull but essential things like laundry, budgeting (you&#8217;d think that lists of numbers that add up to zero would be less work), a little bit of writing, and a lot of todos that will make the week run smoother for having done them (wedding invitations don&#8217;t become calendar appointments by themselves!).<br /><br />I&#8217;ve also had a chance to listen to Das Rheingold for the first time. &nbsp;It&#8217;s really good, and I&#8217;m looking forward to listening to it again and perhaps even <i>watching</i>&nbsp;it, so I can figure out who is singing what.<br /><br />Now the geas which kept me housebound has broken and I&#8217;m off to CCM. Plans won&#8217;t get me back in time to write something more suitable, so you&#8217;ll have to look to Mr Dibley to supply the quality for the week.<br /><br /><span style="background-color: white; font-family: Helvetica; font-size: 13px;">This post is part of the&nbsp;</span><a href="http://life.mumak.net/2013/01/the-alphabet-supremacy.html" style="background-color: white; font-size: 13px;">Alphabet Supremacy</a><span style="background-color: white; font-family: Helvetica; font-size: 13px;">&nbsp;project, a collaboration between myself and&nbsp;</span><a href="http://life.metagnome.net/" style="background-color: white; font-size: 13px;">Bice Dibley</a><span style="background-color: white; font-family: Helvetica; font-size: 13px;">. Next week&#8217;s word is <i>protect</i>.</span></div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

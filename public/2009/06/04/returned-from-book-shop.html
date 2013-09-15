@@ -1,0 +1,141 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Returned from the book shop &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2009/06/04/returned-from-book-shop.html">Returned from the book shop</a></h1>
+		<time>04 June 2009</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+Just got back from Kinokuniya, carrying:<br /><ul><li><span style="font-style: italic;">Marvel 1602</span>, Neil Gaiman</li><li><span style="font-style: italic;">Persuasion</span>, Jane Austen</li><li><span style="font-style: italic;">Breakfast at Tiffany&#8217;s</span>, Truman Capote</li><li><span style="font-style: italic;">Mauritius Command</span>, Patrick O&#8217;Brian</li><li><span style="font-style: italic;">Smiley&#8217;s People</span>, John Le Carre</li><li><span style="font-style: italic;">HMS Surprise</span>, Patrick O&#8217;Brian</li><li><span style="font-style: italic;">The Wave in the Mind</span>, Ursula K. Le Guin</li></ul>I dipped into Le Guin&#8217;s essays on the train &#8211; so good! I&#8217;m looking forward to enjoying them and the rest of the books over the next few weeks.<br /><br />Next up, I&#8217;ll tell you about my Quest and how you can help me.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Claire :)<span class='comment-date'> on 2009-06-08 02:51</span></div>
+<div class='content'>
+Oh, drat you for reminding me about Kinokuniya, I&#39;m going to Sydney in a couple of weeks&#8230; last time i felt it best I didn&#39;t get into the books, having already spent close to $200 in the stationary section!!! I could have done without ever being told that shop exists!!<br />Obviously Ellison Hawker is officially the best book shop, cos it&#39;s in Hobart and the staff are great, but otherwise Kinokuniya totally counts as the best shop going!! :)</div>
+</div>
+<div class='comment'>
+<div class='author'>jml<span class='comment-date'> on 2009-06-06 12:07</span></div>
+<div class='content'>
+Thanks for the tip.<br /><br />Most of these books are ones I&#39;ve wanted to buy for months now, so I&#39;m OK with the amateur tag :)<br /><br />That said, I was disappointed when I walked out and realized that none of the authors were new to me.</div>
+</div>
+<div class='comment'>
+<div class='author'>Benny<span class='comment-date'> on 2009-06-06 11:59</span></div>
+<div class='content'>
+Meh, an okay list for an amateur ;).<br /><br />Try Roberto Bolano. His 2666 might be your new Infinite Jest type book.</div>
+</div>
+<div class='comment'>
+<div class='author'>Mikey Lynch<span class='comment-date'> on 2009-06-05 02:44</span></div>
+<div class='content'>
+Sounds like a good pack of books.<br /><br />I love Ursula Le Guin. And if she knew I existed, she&#39;d love me too.<br /><br />I&#39;m reading &quot;Lowboy&quot; by John Wray atm. It&#39;s main character is a paranoid schizophrenic. Well written one.<br /><br />Oh, and I do have plans to read Infinite Jest these holidays.</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

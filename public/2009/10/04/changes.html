@@ -1,0 +1,131 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Changes &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2009/10/04/changes.html">Changes</a></h1>
+		<time>04 October 2009</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+Right now, I&#8217;m sitting on my bed in a very small studio in Kensington. I&#8217;ve been living in this small studio with its single bed for two weeks now. This is my first home in London.<br /><br />Some weeks ago, I&#8217;d been offered a promotion within Canonical. Circumstances made this a difficult decision, with me being forced to choose between two paths, each of which promising great good and little ill. I chose the promotion since  it seemed the more interesting mistake to make, and so far I haven&#8217;t regretted it. However, to follow the metaphor along its natural, bubbling course, the path has at times been a rocky one.<br /><br />A day or two after that, my former flatmate and landlord asked me to leave his flat, since he wanted someone he could hang out with, and that he and I were from different worlds. Both he and I were aware that when I moved he said &#8220;I&#8217;m not looking for a friend&#8221;, so this came as a shock to me.<br /><br />This meant that I&#8217;d have to move to London sooner than I&#8217;d wanted to. I had wanted to stay in Sydney, go to Chris &amp; Sam&#8217;s wedding, have a last go at actually <span style="font-style: italic;">living</span> there. There was also the Meeting: a week-long talk between all of the team leads on my product. Organizing the Meeting is very much at the core of my new position, I needed time to prepare, to research, to gather data and to talk to people. Moving so soon meant that my preparation time would be split between preparing the Meeting and relocating to another country.<br /><br />As it stands, and thanks largely to the gracious hospitality of my friends Andrew &amp; Mary, I&#8217;ve arrived safely in London, navigated the Meeting and am almost ready to begin really looking for a permanent place to live. This weekend though, I&#8217;m resting, since I&#8217;ve been sprinting along the path for weeks.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>jml<span class='comment-date'> on 2009-10-04 11:42</span></div>
+<div class='content'>
+Launchpad Product Strategist.<br /><br />I didn&#39;t mention it because I forgot to :)</div>
+</div>
+<div class='comment'>
+<div class='author'>Jason<span class='comment-date'> on 2009-10-04 11:32</span></div>
+<div class='content'>
+You didn&#39;t mention your new title for one of two reasons:<br />1) You don&#39;t want to come across as blowing your own horn,<br />2) It&#39;s not public knowledge yet.<br /><br />If it&#39;s the former reason, what title have you taken?</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

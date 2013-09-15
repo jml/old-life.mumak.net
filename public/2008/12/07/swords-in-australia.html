@@ -1,0 +1,136 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Swords in Australia? &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2008/12/07/swords-in-australia.html">Swords in Australia?</a></h1>
+		<time>07 December 2008</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+I was toying around with an idea for a short fantasy-genre story called &#8220;A guy with a sword&#8221; last night and thinking about how (if at all) it should be influenced by my own Australian nature.<br /><br />But then I was thinking, have swords ever been a big deal here? Are there any records of men dueling each other from the early days of the colony? In fact, has anyone in Australia ever been killed with an actual sword?</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Jason<span class='comment-date'> on 2008-12-07 12:02</span></div>
+<div class='content'>
+As far as I know swords were common in the gentry way-back-when, but for little more than ornamental purposes.<BR/><BR/>It was common for certain military ranks to wear swords as part of formal dress, but certainly not for combat.</div>
+</div>
+<div class='comment'>
+<div class='author'>Bice Dibley<span class='comment-date'> on 2008-12-07 11:50</span></div>
+<div class='content'>
+There was the rather famous incident with Francis de Groot at the opening of the Harbour Bridge. No people were injured, but there was a sword prominently involved.</div>
+</div>
+<div class='comment'>
+<div class='author'>Alexander<span class='comment-date'> on 2008-12-07 07:00</span></div>
+<div class='content'>
+A quick google search reveals:<BR/><BR/>Hapkido Master splits assistant&#8217;s head open during demonstration<BR/>http://www.tsuki-kage.com/darwin.html<BR/><BR/>Man charged over samurai sword attack<BR/>http://www.news.com.au/story/0,27574,24600580-1245,00.html<BR/><BR/>Four charged with sword-fight death<BR/>http://www.smh.com.au/news/national/four-charged-with-swordfight-death/2007/01/10/1168105052403.html<BR/><BR/>I&#8217;m pretty sure a Japanese street gang finished off one of their members with a samurai sword near where I used to live in Prahran in Melbourne, and of course Australian POW&#8217;s were beheaded by the Japanese during WWII.<BR/><BR/>Also, I once split Benny&#8217;s finger open duelling with a spade and a stick.</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

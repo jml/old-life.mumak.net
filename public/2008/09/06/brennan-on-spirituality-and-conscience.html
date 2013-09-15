@@ -1,0 +1,126 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Brennan on Spirituality and Conscience &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2008/09/06/brennan-on-spirituality-and-conscience.html">Brennan on Spirituality and Conscience</a></h1>
+		<time>06 September 2008</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+While I was in Hobart, I went to see <a href="http://en.wikipedia.org/wiki/Frank_Brennan">Frank Brennan</a> speak at a regular event called &#8220;Spirituality in the Pub&#8221;. He was given the topic &#8220;Spirituality and Conscience&#8221;, which he interpreted as &#8220;talk about the stuff in your book and interesting things that you&#8217;ve done&#8221;, which was alright with me.<br /><br />I was expecting him to be a better orator. He was certainly clear, and his talk was definitely interesting, but he had a sing-song tone that I found distracting. It&#8217;s a minor thing, of course. I mention it only because I was surprised: I&#8217;ve heard more engaging speakers at Free Software conferences.<br /><br />In his talk, he outlined a few principles and peppered them with anecdotes. First, he said we have to realise that the following are five separate questions that might have five separate answers:<ol><li>What is right for me?</li><li>What is right for those who ask my advice (e.g. my friends, my family, my church)?</li><li>What is the right <i>social policy</i> for a pluralistic democracy?</li><li>What is the right law?</li><li>How should such a law be administered?</li></ol><br /><br />As a conservative Christian who&#8217;s socially liberal, I love this: it&#8217;s a very clear framework for thinking about controversial issues such as abortion, stem-cell research and gay marriage. I personally had never thought about separating the last three points, which seems rather foolish in hindsight. <br /><br />Brennan also emphasised that compromise in politics is perfectly acceptable and logically necessary. After all, what else is politics for? The upshot is that we need to be clear on what our <i>principles</i> are and on the <i>process</i> for compromise.<br /><br />He also mentioned that it&#8217;s important to think about what&#8217;s achievable, and recalled a conversation he had with <a href="http://en.wikipedia.org/wiki/Philip_Ruddock">Philip Ruddock</a> on the mandatory detention centres. Even though Brennan was against mandatory detention, he didn&#8217;t <i>argue</i> against it in that conversation. Instead, he focused on something achievable: regular, independent, public scrutiny of the conditions in those centres.<br /><br />Question time was fun. We had a bit of a chat about what it means to &#8220;acknowledge&#8221; the traditional owners of the land at public gatherings, and I copped a couple of dirty looks from some members of the audience by addressing him as &#8220;Frank&#8221; rather than &#8220;Father&#8221;.<br /><br />On the whole, I wish that he was my local MP. <a href="http://en.wikipedia.org/wiki/Brendan_Nelson">My current one</a> is a little disappointing.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Mikey Lynch<span class='comment-date'> on 2008-09-06 11:03</span></div>
+<div class='content'>
+thanks for writing this all up jml. and thanks for joining me on the night!</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

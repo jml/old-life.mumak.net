@@ -1,0 +1,118 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>More books &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2012/05/04/more-books.html">More books</a></h1>
+		<time>04 May 2012</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+<br /><ul><li><i>Mind of the Maker</i>, Dorothy Sayers</li><li><i>City of Dragons</i>, Robin Hobb</li><li><i>Gaudy Night</i>, Dorothy Sayers</li><li><i>Orthodoxy</i>, G. K. Chesterton</li><li><i>Heart of Darkness</i>, Joseph Conrad</li><li><i>This Quantum Universe</i>, Brian Cox and Jeff Forshaw</li></ul><div><b>Reflections</b></div><div><ul><li>G. K. Chesterton is frustratingly smug. I wish he would make a clear argument. All too often he sort of smiles with a twinkle in his eye that says &#8220;You never thought of <i>that</i>, I&#8217;ll wager&#8221;.</li><li>I want to read an anthology of correspondence between Dorothy Sayers and Ursula Le Guin</li><li><i>Heart of Darkness </i>would be better read in one sitting, I imagine</li><li>When you know a little maths, long-winded explanations to help those who know less maths make things far more difficult to understand</li><li>I couldn&#8217;t explain most of what I learnt in <i>This Quantum Universe</i>, so I didn&#8217;t learn it well enough</li><li>I seem to need to have at least one work of fiction on the go at all times</li><li><i>The Rain Wild Chronicles</i>&nbsp;(of which <i>City of Dragons</i>&nbsp;is the third volume) is Hobb&#8217;s least good series so far. It&#8217;s still pretty good though.</li></ul></div></div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

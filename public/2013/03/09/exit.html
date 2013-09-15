@@ -1,0 +1,118 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Exit &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2013/03/09/exit.html">Exit</a></h1>
+		<time>09 March 2013</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+I&#8217;m not entirely sure exactly where I&#8217;ve announced it already, but in February I finished up my employment with Canonical.<div><br /></div><div>I started there in January 2007, which means I&#8217;d been with the company over six years. I don&#8217;t know exactly how to categorize these things, but the only other organization that I was involved with for anywhere near as long was primary school, and that just doesn&#8217;t seem to be directly comparable.</div><div><br /></div><div>I had a blast at Canonical, made many good friends, and learned a great deal. I saw much of the world, met crazy, intelligent, interesting, eccentric people, learned how to play Cambridge Standard Five Card Mao, started a few useful side projects and perhaps even made a small contribution to the wider world. I kept being thrown into situations where I&#8217;d have to work with people who were heaps better than me at what they did, and then they&#8217;d graciously and kindly help me get better.</div><div><br /></div><div>And so, making my exit was a bit hard. &nbsp;I didn&#8217;t know how to do it right, because it&#8217;s been a very long time since I&#8217;ve left a job.&nbsp;</div><div><br /></div><div>The bit that I didn&#8217;t expect to be hard was pronouns. They are actually still giving me trouble.</div><div><br /></div><div>You see, when I was working at Canonical, <i>we</i>&nbsp;made Launchpad and <i>we </i>were trying to cross the chasm, and <i>we </i>needed to get [whatever] done by [whenever] if we were going to succeed. It&#8217;s all very straight-forward first person plural. There&#8217;s lots of us, and I am one of us, as it was in the beginning, is now and ever shall be</div><div><br /></div><div>Once the notice was handed in, though, I had to start talking about <i>you</i>, at least in the future. That&#8217;s really awkward. Although I&#8217;m still formally one of us, the knowledge that I&#8217;ll soon be one of them breaks <i>we</i>&nbsp;into you<i> </i>and I. To be honest, it just sounded rude.</div><div><br class="Apple-interchange-newline" />Thing is, there&#8217;s something in the oft-made point that you can&#8217;t leave one place without entering another. Every exit is also an entrance. So now I&#8217;m working at <a href="https://www.google.com/">my new job</a>, I&#8217;m facing the same problem in reverse. Occasionally I talk about things that I helped do at Canonical, or even decisions I helped to make, and it&#8217;s very hard not to say <i>we</i>, because in the past it was us who did it. &nbsp;Likewise, when encountering differences there, it&#8217;s hard not say &#8220;Oh, that&#8217;s how you do things here&#8221; or &#8220;Man, you&#8217;ve got some cool technology&#8221;. So I&#8217;m not quite one of them yet, at least grammatically. I&#8217;m getting there though.</div><div><br /></div><div>The people I&#8217;m working with are fun and very good at what they do. Even apart from the job itself, I&#8217;m learning things from most of them every day. Tomorrow, I&#8217;ll be making another exit and leaving the UK to go work with them and some of our US colleagues in Chicago. Despite not looking forward to being away from Jolie for a week, I am looking forward to that. Perhaps I&#8217;ll teach them Cambridge Standard Five-Card Mao.</div><div><br /></div><div>Next week&#8217;s word: fantasy.</div><div><br /></div></div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

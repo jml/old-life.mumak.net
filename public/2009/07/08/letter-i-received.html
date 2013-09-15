@@ -1,0 +1,146 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>A letter I received &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2009/07/08/letter-i-received.html">A letter I received</a></h1>
+		<time>08 July 2009</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+<blockquote>Jonathan Lange, a 26yr old man presented to The Emergency Department of The Royal North Shore Hospital because <span style="font-style: italic;">he walked into a glass door and cut his neck</span> this evening. He has a superficial lac to the L side of his neck. In our Department he was given ADT, and was discharged home.<br /><br />Kind Regards, etc.<br /></blockquote>Emphasis mine.<br /><br />And yes, I&#8217;m fine.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Michael Hudson<span class='comment-date'> on 2009-07-09 10:30</span></div>
+<div class='content'>
+At my parents&#39; house there were large french windows that were basically sheet glass and as a child I both ran into them when I thought they were open (fortunately they were very solid shop-window glass) and, probably more entertaining for spectators, tried to lean on them when I thought they were shut.</div>
+</div>
+<div class='comment'>
+<div class='author'>mdzlog<span class='comment-date'> on 2009-07-09 07:59</span></div>
+<div class='content'>
+To whom was this letter addressed?  It reads like it&#39;s meant to excuse you from school or something.<br /><br />Glad you&#39;re OK.</div>
+</div>
+<div class='comment'>
+<div class='author'>jml<span class='comment-date'> on 2009-07-09 03:58</span></div>
+<div class='content'>
+Bice, it was completely transparent. Nigh invisible.<br /><br />Mary, yes, it was entirely shattered. We had to replace it immediately since shards of glass sticking out from doorframes are not conducive to household peace of mind.<br /><br />And I honestly did walk into it. No unusual force at all.</div>
+</div>
+<div class='comment'>
+<div class='author'>Mary<span class='comment-date'> on 2009-07-09 03:10</span></div>
+<div class='content'>
+I remember this was a big thing when I was a kid, hearing about other kids who had run into/through glass windows and doors.<br /><br />So you walked into it hard enough to smash it?</div>
+</div>
+<div class='comment'>
+<div class='author'>Bice Dibley<span class='comment-date'> on 2009-07-09 02:49</span></div>
+<div class='content'>
+Open door, then walk through door. I can see how you could forget step 1 I suppose.</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->
