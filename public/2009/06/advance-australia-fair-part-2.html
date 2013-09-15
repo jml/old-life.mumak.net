@@ -1,0 +1,120 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Advance Australia Fair, part 2 &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2009/06/advance-australia-fair-part-2.html">Advance Australia Fair, part 2</a></h1>
+		<time>25 June 2009</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+<div>The Australian national anthem is called Advance Australia Fair. The anthem has two verses, Advance Australia Fair has six or three depending on who you ask. In almost every state and sporting occasion, only one verse is sung.</div><div><br />There are some occasions where singing both verses is required. No one likes those.</div><div><br /></div><div>This is about the second verse of the anthem. I&#8217;ve already <a href="http://life.mumak.net/2009/05/advance-australia-fair-part-1.html">commented on the first verse</a>.<br /><dl><dt>Beneath our radiant Southern Cross</dt><br /><dd>The Southern Cross is a constellation that features on the Australian flag and on the sky in the Southern hemisphere. And the Kiwi flag. It&#8217;s not really <i>our</i> Southern cross, since I&#8217;m pretty sure you can see it in<br />South Africa and the Falkland Islands. That said, it is beautiful, and it does radiate.</dd><br /><dt>We&#8217;ll toil with hearts and hands;</dt><br /><dd>We&#8217;ll work together and we&#8217;ll like it.<br /></dd><br /><dt>To make this Commonwealth of ours renowned of all the lands;</dt><dd><br />To make Australia famous. We achieved fame domestically quite some time ago, so now our anthem&#8217;s ambition is to make it famous elsewhere. &#8220;Of all the lands&#8221; either means that Australia ought to be the most famous country in the world or that Australia ought to be famous in every single other country. I think we&#8217;re doing pretty well at this, to be honest.<br /></dd><br /><dt>For those who&#8217;ve come across the seas</dt>  <dd><br />Either:<ul> <li>everyone in Australia apart from the Aboriginals, who probably walked</li><br /><li>British people</li><br /><li>those whom we would now call immigrants<br /></li>  </ul></dd></dl><dl><dt>We&#8217;ve boundless plains to share;</dt><br /><dd>You can stay in the middle of the desert.</dd><br /><dt>With courage let us all combine</dt><dd><br /></dd> <dd>Sadly, not like Voltron. More like a Soviet farming collective, or an army, or a football team.</dd><br /><dt>To Advance Australia fair</dt><br /><dd>See <a href="http://life.mumak.net/2009/05/advance-australia-fair-part-1.html">previous post</a>.</dd><br /><dt>In joyful strains then let us sing</dt><br /><dd>Explained in previous post. I&#8217;d like to point out that no one sings in &#8220;strains&#8221; any more, and that I&#8217;ve filled out tax returns that are more poetically evocative.</dd><br /><dt>Advance Australia fair</dt><br /><dd>A tad repetitve, no?</dd></dl>To be honest, I prefer the Seekers song.</div></div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

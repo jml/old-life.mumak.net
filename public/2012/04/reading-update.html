@@ -1,0 +1,120 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Reading update &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2012/04/reading-update.html">Reading update</a></h1>
+		<time>21 April 2012</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+I have a post in my backlog about a couple of books I&#8217;ve recently read. However, what with moving house, my folks visiting, the upcoming wedding and the usual hectic pre-release, pre-UDS panic at work, I haven&#8217;t had the time to polish it into something readable.<br /><br />So, in lieu of actual thoughts and considerations, here&#8217;s a list of what I&#8217;ve finished reading recently:<br /><br /><ul><li></li><li>Ancient Rome: From the earliest times down to 476 AD, Robert Franklin Pennell</li><li>An Evil Guest, Gene Wolfe (thanks dash!)</li><li>Crystal Cave, Mary Stewart</li><li><a href="http://en.wikipedia.org/wiki/Mabinogion">Mabinogion</a>, Anonymous</li><li>Rebecca, Daphne du Maurier</li><li>Strong Poison, Dorothy Sayers</li><li>This Momentary Marriage, John Piper</li><li>Pre-Christian Ireland, Peter Harbison</li></ul>Currently working my way through a bunch of books.<br /><br /><ul><li>Heart of Darkness, Joseph Conrad</li><li>Innovator&#8217;s Solution, Michael E. Raynor and Clayton M. Christensen</li><li>The Quantum Universe, Brian Cox and Jeff Forshaw</li><li>The 7 Habits of Highly Effective People, Stephen R. Covey</li><li>ggplot2: Elegant Graphics for Data Analysis, Hadley Wickham</li><li>Think Stats: Probability and Statistics for Programmers, Allen B. Downey</li></ul><div>Believe it or not, this is actually a kind of success in my attempt to be reading fewer books at once. The main lessons learned so far are not to set aside hard books so quickly and to start taking notes on genuinely interesting non-fiction books from the beginning. &#8220;7 Habits&#8221; and &#8220;Innovator&#8217;s Solution&#8221; are still on there because I had to double back and re-read to note down things.</div></div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

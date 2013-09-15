@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Serve"
+date: 2013-09-15 10:59
+comments: true
+published: false
+categories: alphabet-supremacy
+---
+
+I've moved this blog and [my technical blog](http://code.mumak.net) over to
+[Octopress](http://octopress.org), which is a very geeky way of blogging that
+allows me to write blog posts using the tools I use to write code.
+
+Blogger is nice for what it is, but it's actually a hassle to use for
+composition.  It doesn't have rich styles for formatting, doesn't allow
+footnotes, and has very poor support for managing literal line breaks, which
+is critically important when you are writing about source code.
+
+It has great, built-in support for analysing the traffic that comes to the
+site, but that's not something that's very useful to me.  It turns out, gentle
+reader, that you are one of a very select group.
+
+The new blog pages are being served by [Heroku](http://www.heroku.com/), in a
+manner which I do not yet understand.  These things are liable to change.
+
+My plan ultimately is to move all of my technical properties – blogs, project
+pages, essays – under the [mumak.net](http://mumak.net) domain name and have
+the [code.mumak.net](http://code.mumak.net) URLs redirect there.  The
+[life.mumak.net](http://life.mumak.net) would move to my halfwise domains.
+
+mumak.net is the more established of the two domains by a long way, and is
+more associated with my programming and open source work.  The current home
+page is extremely stale, and does a poor job of reflecting my interests.  My
+hope is that by serving it with fresher technologies that I actually enjoy
+using, and by lowering the barrier to publication, I'll have something that
+is more interesting to me and perhaps more interesting to others.
+
+The
+[Alphabet Supremacy](http://life.mumak.net/2013/01/the-alphabet-supremacy.html)
+project has meant that almost all of my writing time has been devoted to
+non-technical things.  It's fun, but my appetite for open source hacking and
+for technical writing has been whetted by stimulating conversations at
+[work](http://www.google.com/about/jobs/) and (perversely but predictably) by
+being compelled to write about other things.
+
+Anyway, please let me know if your blog reading experience is disrupted in any
+way.  I've tried hard to keep all of the old links still working, but it's
+really easy to make mistakes.
+
+Comments are disabled for now, and possibly forever.  If you think I should
+put them back on, please feel free to make your case on the social network of
+your choice.

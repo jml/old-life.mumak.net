@@ -1,0 +1,120 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Bittersweet &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2009/05/bittersweet.html">Bittersweet</a></h1>
+		<time>01 May 2009</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+<a href="http://puzzling.org/logs/thoughts/2009/April/30/warhaft-and-manne">Great post</a> by <a href="http://mary.gardiner.id.au/">Mary Gardiner</a>; I&#8217;m disappointed that it needed to be said at all.<br /><br />Quoting here in full with Mary&#8217;s permission, since puzzling.org is under unusually heavy load.<br /><blockquote><h1>How to talk about Sally Warhaft and Robert Manne</h1><br /><p>There&#8217;s a lot of talk in various places about Sally Warhaft leaving her<br />position as editor of <a href="http://www.themonthly.com.au/tm/"><em>The Monthly</em></a>. I don&#8217;t have a novel substantive opinion on this: I&#8217;m a <em>The Monthly</em> subscriber (and I&#8217;ve therefore enjoyed Warhaft&#8217;s work), but not a writer or a left-wing socialite or a media insider. Wikipedia has <a href="http://en.wikipedia.org/wiki/The_Monthly#April_2009_editorial_change">a little summary</a> of the actual story. That said, I have a helpful guide to talking about Sally Warhaft and Robert Manne (or Morry Schwartz) in the same text.</p><ul><br /><li>If you refer to Robert Manne as &#8216;Manne&#8217;, then Sally Warhaft is referred to as &#8216;Warhaft&#8217;, not &#8216;Sally&#8217;, because otherwise you come across as treating Sally Warhaft as if she was an intimate of yours and Manne as a professional when you&#8217;re presumably wanting to comment on her professional editorial work.</li><br /><li>If you refer to Sally Warhaft as &#8216;Ms. Warhaft&#8217; then Robert Manne must be &#8216;Mr. Manne&#8217;, not just &#8216;Manne&#8217;. Otherwise it sounds like you&#8217;re making a big deal out of Warhaft being a woman, which doesn&#8217;t seem to be a factor in the story, and even if it was, that&#8217;s not the way to make that point.</li><br /><li>If you refer to Robert Manne with his academic title, &#8216;Professor Manne&#8217;, you should refer to Sally Warhaft with hers, &#8216;Doctor (or Dr) Warhaft&#8217;. I can at least squint and see the argument for this one: Manne has an academic position and Warhaft doesn&#8217;t, but it&#8217;s not as though her <em>The Monthly</em> position is totally divorced from her academic background either.</li><br /><li>If you&#8217;re going to comment on Sally Warhaft&#8217;s physical presence, say, by coming out with something like <q><a href="http://www.theaustralian.news.com.au/story/0,25197,25402313-7582,00.html">she&#8217;s a whip-smart, willowy beauty, which makes her a great front for a lively mag</a>,</q> then here&#8217;s your line for Robert Manne: <q><a href="http://identi.ca/notice/3819127">he&#8217;s a whip-smart, potent steed, which makes him a great front for a lively magazine</a>.</q></li></ul></blockquote></div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

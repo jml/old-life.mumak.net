@@ -1,0 +1,128 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Fiction Genre Fiction &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2008/11/fiction-genre-fiction.html">Fiction Genre Fiction</a></h1>
+		<time>16 November 2008</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+I&#8217;m OK with science fiction. A lot of it is terribly written, but on the whole I accept the genre.<br /><br />That said, the kind I like best isn&#8217;t really science fiction, it&#8217;s <span style="font-style: italic;">economics fiction</span>, fiction that addresses what the world would be like if the rules of scarcity changed. Books like:<br /><ul><li><span style="font-style: italic;">The Dispossessed</span>, Ursula Le Guin (the best SF author ever. If you disagree, you are wrong.)</li><li>The <span style="font-style: italic;">Culture</span> novels, Iain M. Banks</li><li><span style="font-style: italic;">The Diamond Age</span>, Neal Stephenson (to a certain extent)</li></ul>In most of these stories, societies solve the &#8220;limited supply, unlimited demand&#8221; problem by inventing technology which provides an unlimited supply. Hence, they become &#8220;science&#8221; fiction.<br /><br />There&#8217;s also a short story by Lord Dunsany called &#8220;The Bureau d&#8217;Echanges de Maux&#8221; which describes a market where evils, rather than goods, can be traded. Of course, Dunsany doesn&#8217;t care about whether this market performs a useful economic function, so there&#8217;s still areas to explore.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Mikey Lynch<span class='comment-date'> on 2008-11-16 16:56</span></div>
+<div class='content'>
+Economic fiction. I like.</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

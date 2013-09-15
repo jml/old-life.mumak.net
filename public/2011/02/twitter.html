@@ -1,0 +1,143 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Twitter &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2011/02/twitter.html">Twitter</a></h1>
+		<time>02 February 2011</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+There are a lot of interesting people on Twitter, and it seems like a good way to be part of a broader conversation. I quite like the short format of Facebook status update, so it figures that tweeting should come naturally.<br /><br />The problem is I always slide off Twitter like a sock off a warm glass window (try it sometime!). I just can&#8217;t stick to it. Anyone else had this problem? Is it a tech thing or an attitude thing? Am I better off leaving it alone?</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Andrew Durdin<span class='comment-date'> on 2011-02-03 17:54</span></div>
+<div class='content'>
+What suddenly got me into using Twitter was attending a developers conference in 2009* where a majority of the other attendees used it. I met a lot of people, talked with them, and got their twitter handles.<br /><br />After the conference was over, this made it much easier to keep in touch with what was going on in this scene. It sort of fit the same general feel as the discussions in the pub every night during the conference: a lot of informal chatter, some excellent discussions, and listening in or weighing in on whatever is relevant or interesting to me.<br /><br />I now use a twitter client on my desktop machine, skimming through tweets every now and again. The group of people I follow has broadened well beyond just Cocoa developers, and into other areas of interest to me.<br /><br />The final thing that clicked for me about it is the asymmetry of the “follow” relationship. I follow people because I’m interested in what they’re saying, but I have no expectation of them following me back. And I unfollow anyone without remorse if I’m no longer interested in their tweets, or they’re tweeting the latest stupid meme too much. I can always peek at their timeline later and follow again if I want to. The asymmetry of this is very different to “friend” relationships on Facebook: partly because those are only reciprocal, and partly because the term “friend” is very loaded, and “unfriending” carries implications of falling out.<br /><br />For me, twitter is like sitting in a huge IRC channel, but with a whitelist instead of a blacklist deciding what I see. And shorter messages.<br /><br />*NSConference, not Europython, though it had the same effect to some extent.</div>
+</div>
+<div class='comment'>
+<div class='author'>mwhudson<span class='comment-date'> on 2011-02-03 10:02</span></div>
+<div class='content'>
+I think the thing to remember about Twitter is that it is for mobile phones, not computers.  But I agree with Tom&#39;s points too.</div>
+</div>
+<div class='comment'>
+<div class='author'>Mary<span class='comment-date'> on 2011-02-02 19:51</span></div>
+<div class='content'>
+I think Facebook&#39;s &quot;Top News&quot; functionality is a major lack on Twitter. (Also, a character limit closer to 500 characters would be helpful.)</div>
+</div>
+<div class='comment'>
+<div class='author'>Tom Berger<span class='comment-date'> on 2011-02-02 14:24</span></div>
+<div class='content'>
+I just made a twitter comeback for the same reasons you mention, but I can already remember why I left it twice before:<br /><br />1. 140 characters is very restrictive. It&#39;s hard to say anything meaningful.<br /><br />2. The short URLs are scary. Is it only me? It seems completely unnatural to me to click on a link without having any idea where it&#39;s going.<br /><br />3. The volume is hard to manage. Once you start following enough people you get loads of info, and it&#39;s very unbalanced - some users tweet a lot and some hardly at all.<br /><br /><br />I find that using it from the phone (I&#39;m using the Android client - which is really well done) feels better, so I think I might keep it as a phone-only thing (that should also help make sure I don&#39;t waste time I could spend doing useful things on Twitter - I still don&#39;t do anything particularly useful on the phone).</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

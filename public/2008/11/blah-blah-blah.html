@@ -1,0 +1,133 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Blah blah blah &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2008/11/blah-blah-blah.html">Blah blah blah</a></h1>
+		<time>26 November 2008</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+I&#8217;ve been thinking a lot about getting myself an iPhone. Of course, Telstra is an ass, so I&#8217;d have to spend almost a thousand dollars to get out of my current contract &#8211; Apple can wait. <br /><br />Read <i>Lord of Light</i> again recently; it&#8217;s a great book and you should too, if you can. Started on <i>The Illuminatus Trilogy</i>. Speaking of the Illuminati (which I rarely do out loud, hidden watchers you see), they are making a film out of Dan Brown&#8217;s <i>Angels and Demons</i>. I guess it shouldn&#8217;t surprise me since the first one was hilarious &#8211; &#8220;just the way the pagans would have wanted&#8221;.<br /><br />I kind of had to read <i>Lord of Light</i>, since the book I read before that was <i>The Broken Sword</i> by Poul Anderson. Well above average fantasy, of the kind you can&#8217;t make any more because of <big><b>Tolkien</b></big>. You can&#8217;t switch from stylized Nordic fantasy filled with Saxon verse straight to <i>The Illuminatus Trilogy</i>, hence the Zelazny.<br /><br />Incidentally, due to cirumstances, I now believe that <i>Infinite Jest</i> uses the phrase &#8220;immantentizing the Eschaton&#8221;. This belief feels erroneous, but it&#8217;s there like an ill-fitting jacket that you can&#8217;t get rid of since you need something to keep you warm and you can&#8217;t bear the pressure of having to choose another one.<br /><br />Lindfield is boring me a lot. That and circumstances (different from the <i>IJ</i>-possiby-erroneous-belief-inducing ones) will probably mean I&#8217;ll be moving again. I hate moving. If you hear about a place to move to, let me know. Ideally it would be a share house with interesting and friendly people at roughly my age group.<br /><br />I&#8217;m really looking forward to Christmas. I&#8217;m sick of 2008 and am willing to take my chances with a different year. Summer too.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Mikey Lynch<span class='comment-date'> on 2008-11-26 09:00</span></div>
+<div class='content'>
+Great piece of writing jml, thanks for the update and the enjoyable read.</div>
+</div>
+<div class='comment'>
+<div class='author'>Steve McInerney<span class='comment-date'> on 2008-11-26 06:14</span></div>
+<div class='content'>
+Blogging vs doing presentations jml? ;-)<BR/><BR/>&#8216;Lord of Light&#8217; rang the highly vague bell. &#8216;Zelanzy&#8217; clicked.<BR/><BR/>*Very* odd book IMHO. I enjoyed it, but haven&#8217;t rushed to re-read. I found it &#8230; heavy going. I prefer a lighter read. I suspect the work separation thing :-)<BR/><BR/>Would explain why my Pratchett collection is almost in tatters.</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

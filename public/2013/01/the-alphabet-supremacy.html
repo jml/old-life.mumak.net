@@ -1,0 +1,120 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>The Alphabet Supremacy &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2013/01/the-alphabet-supremacy.html">The Alphabet Supremacy</a></h1>
+		<time>05 January 2013</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+<br />I finished up 2012 with a vague intention to write more in 2013. &nbsp;I asked folk&nbsp;on G+ what I could do to turn this vague intention into a more solid reality,&nbsp;and they <a href="https://plus.google.com/115348217455779620753/posts/Hi76pkq9C8p">did</a><br /><a href="https://plus.google.com/115348217455779620753/posts/Hi76pkq9C8p">did not disappoint</a>.<br /><br /><a href="http://mary.gardiner.id.au/">Mary Gardiner</a> made some great suggestions, starting with:<br /><blockquote class="tr_bq">The usual: make a public commitment, make a shared commitment, make it a<br />competition, somehow organise it so that your writing is a commitment to<br />another person rather than to yourself.</blockquote>I think these are excellent ideas, so I got in touch with my friend&nbsp;<a href="http://life.metagnome.net/">Bice Dibley</a>&nbsp;and asked him if we wanted to be my&nbsp;writing&nbsp;<a href="http://www.urbandictionary.com/define.php?term=frenemesis&amp;defid=5343186">frenemesis</a>&nbsp;for 2013.<br /><br />He agreed, with his usual aplomb, came back with an idea on how to make it a&nbsp;public and shared commitment, and also a bit of a competition.<br /><br />Here&#8217;s how it&#8217;s going to work:<br /><br /><ul><li>Week 1, jml picks a word starting with &#8216;A&#8217;, we both write something</li><li>Week 2, Bice picks an &#8216;A&#8217;, we both write something</li><li>Repeat 24 more times, skipping &#8216;X&#8217; because no one likes xylophones&nbsp;and because we want Christmas off</li><li>Words aren&#8217;t restricted to a particular field – anything goes. It must, however, be a single word</li><li>Deadline for posting is 00:00 Monday UTC, the post must also specify the word for next week if it&#8217;s your turn for it</li><li>Aiming for around 600 words per post</li><li>Each week we put £5 into a pot, if either doesn&#8217;t publish a post or pick a new word by the&nbsp;deadline, he forfeits the pot to the other</li><li>Whether a post is on topic is judged by general acclamation, and is largely left up to our own consciences</li></ul>I was secretly hoping that this thing with Bice would resolve all of the conflicting awfulness I feel about my current blogging setup, but it was not to be.&nbsp;For the time being, the blog posts will appear on our respective blogs.<br /><br />The first post is due in less than thirty-six hours.&nbsp;I&#8217;m pretty excited about it.<br /><br />Also, Mary has written up her excellent suggestions on&nbsp;<a href="http://lecta.puzzling.org/2013/01/01/how-to-do-more-writing-by-someone-who-has-never-made-any-such-resolution/">how do to more writing</a>, and I would urge you to read them if you have a similar resolution.<br /><br /></div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

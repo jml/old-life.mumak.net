@@ -1,0 +1,138 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Electronic book reader? &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2010/01/electronic-book-reader.html">Electronic book reader?</a></h1>
+		<time>24 January 2010</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+<div>I&#8217;ve just got back from a seven week stint in Australia and New Zealand. I left two books in Tasmania, but still managed to come back with eight books in my luggage. Books are big and heavy and I&#8217;m sick of carting them around the world watching them get damaged.</div><div><br /></div><div>It&#8217;s time for me to get an electronic book reader. I&#8217;ve resisted for a while because books are not only big and heavy, they are also wonderful and mysterious and almost sacred. Benny once told me that the physical book is the frame for the actual book, much like a bottle is the frame for wine. In both cases, the container has its own beauty, separate from but related to the thing inside that gladdens and warms the heart.</div><div><br /></div><div>Also, I cannot abide <a href="http://en.wikipedia.org/wiki/Digital_rights_management">DRM</a> for books.</div><div><br /></div><div>Which electronic book reader should I get? I would love to hear your recommendations. The single essential is that I must be able to load it with non-DRMed books in open formats (PDF, text, HTML).</div></div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>jml<span class='comment-date'> on 2010-01-26 10:35</span></div>
+<div class='content'>
+Thanks for the tips guys. Battery life is definitely important &#8211; I wonder if the Nook does better if wifi is turned off.<br /><br />Also, I guess Apple might be bringing out something tomorrow.</div>
+</div>
+<div class='comment'>
+<div class='author'>lifeless<span class='comment-date'> on 2010-01-26 08:14</span></div>
+<div class='content'>
+Kindle large-screen is what I&#39;m planning on getting.<br /><br />It can load pdf&#39;s and a couple of the open book formats, and I&#39;m told there should be a software refresh soon to add another.<br /><br />Also the kindle DRM format is broken, so books bought on amazon in that format can be unlocked, backed up and loaded back into the kindle in open form.</div>
+</div>
+<div class='comment'>
+<div class='author'>rockstar_<span class='comment-date'> on 2010-01-25 17:00</span></div>
+<div class='content'>
+I absolutely love my Sony Reader Touch.  I have friends with the Kindle and Nook.  The Kindle&#39;s proprietary format makes things a little difficult to use your own content, and well, DRM is bad, mmkay. The Nook and the Reader both do epub, but the Nook&#39;s battery life doesn&#39;t touch the Readers.  You might have seen me with mine in New Zealand.  I didn&#39;t charge it the entire time I was there and I managed to read three whole books.</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

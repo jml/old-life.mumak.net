@@ -1,0 +1,127 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>The Alphabet Supremacy: It begins with an A &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2013/01/the-alphabet-supremacy-it-begins-with-a.html">The Alphabet Supremacy: It begins with an A</a></h1>
+		<time>07 January 2013</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+Keen readers of Echo &amp; Bounce will notice two things about the last two posts:<br /><br /><ol><li>they were unusually close together</li><li>neither were about books I&#8217;ve just read</li></ol><div>Although, to be fair, I mention books in one of them.</div><div><br /></div><div>As documented previously, I&#8217;m participating in the <a href="http://life.mumak.net/2013/01/the-alphabet-supremacy.html">Alphabet Supremacy</a> with <a href="http://life.metagnome.net/">Bice Dibley</a>. The first word, picked in an all-too-frequent attack of stupidity by yours truly, was &#8220;ambition&#8221;. My take, <a href="http://life.mumak.net/2013/01/ambition.html">previously</a>, and <a href="http://life.metagnome.net/">Bice&#8217;s take on his blog</a>. My next word will not be so high falutin.</div><div><br /></div><div>The word for next week, picked by Bice, is &#8220;anecdote&#8221;. I looked it up, and it doesn&#8217;t mean &#8220;a cure for poison&#8221;, so I&#8217;m out of ideas.</div><div><br /></div><div>As Bice <a href="http://life.metagnome.net/2013/01/the-year-of-writing-dangerously.html">mentions</a>, there&#8217;s no great way to follow both his posts and mine at this stage: no doubt we&#8217;ll over-engineer a solution some time after the year is out. In the mean time, you probably want to follow him. We&#8217;ll both try to label our posts with alphabet-supremacy, so you can spot the relevant ones.</div></div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/alphabet-supremacy/'>alphabet-supremacy</a>
+	
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

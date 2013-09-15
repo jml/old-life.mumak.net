@@ -1,0 +1,133 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Like over-cooked steak &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2008/10/like-over-cooked-steak.html">Like over-cooked steak</a></h1>
+		<time>03 October 2008</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+Just finished a massive &#8220;Weekly Review&#8221;, a time of going through all my notes, papers, flagged emails, desktop icons and processing them to see what they are and what I need to do about them. It&#8217;s also a time for going through my reminder lists, getting them up-to-date and making sure everything is heading a long as normal.<br /><br />This time, I spent about four hours. If I actually <span style="font-style: italic;">finished</span> my GTD refresh last weekend, it would have taken less time. I don&#8217;t feel particularly cleaner or more productive yet, but there are definitely fewer loose threads. I&#8217;m also surprised by how many good ideas I&#8217;ve had languishing inside my head: I&#8217;m itching for a weekend or two to spend hacking and writing.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Bron<span class='comment-date'> on 2008-10-14 07:54</span></div>
+<div class='content'>
+So I know that this totally doesn&#8217;t apply to you at this point in time&#8230; but have you given any thought to the whole thing about having work at home and having integrated systems? <BR/><BR/>Cos it seems to me that having a weekly review is not only extremely hard to fit into my week now&#8230; it&#8217;s also like I&#8217;d have to do two of them. Otherwise I don&#8217;t have access to everything I need in both contexts. Plus, I&#8217;d feel a bit guilty about taking up work time doing personal review stuff. <BR/><BR/>Any thoughts?<BR/><BR/>I so want this system to work!</div>
+</div>
+<div class='comment'>
+<div class='author'>johnk<span class='comment-date'> on 2008-10-11 14:03</span></div>
+<div class='content'>
+My weekly reviews take one to two hours and I have a lot of projects underway.  It seems the most difficult part of GTD for folks is the weekly review, and most of the difficulty originates from just not doing it.<BR/><BR/>I’ve written a recent post on the weekly review, entitled, the Five W’s of a Weekly GTD Review that you and your readers might find interesting at http://johnkendrickonline.com John</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

@@ -1,0 +1,148 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Echo and Bounce" name="author">
+		
+		<title>Keep-Alive &mdash; Echo and Bounce</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Echo and Bounce" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Echo and Bounce</div>
+				
+				<div class="navi">
+                  <ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2008/10/keep-alive.html">Keep-Alive</a></h1>
+		<time>16 October 2008</time>
+	</header>
+		<div class="content">
+			<div class='post'>
+Things have been rather busy around here for me. I&#8217;m heading off to London for a two-week epic hacking adventure with the rest of my colleagues, and the preparation has taken up all of my free time.<br /><br />Well, not quite <span style="font-style: italic;">all</span>. I&#8217;ve also just purchased a <a href="http://www-604.ibm.com/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10000036&amp;catalogId=-36&amp;langId=036&amp;categoryId=4611686018425096207&amp;seriesid=2060574">new laptop</a> and have been spending a fair bit of time getting it ready to use as a development machine. I&#8217;m quite enamoured of its light weight and rugged keyboard.<br /><br />I&#8217;ve also been reading a fair bit:<br /><ul><li><span style="font-style: italic;">Economics</span>, The Economist Group</li><li><span style="font-style: italic;">Master and Commander<span style="font-style: italic;"><span style="font-style: italic;">, </span></span></span>Patrick O&#8217;Brian</li><li><span style="font-style: italic;">The Fionovar Tapestry</span> (again), Guy Gavriel Kay</li><li><span style="font-style: italic;">The Little Book of Commonsense Investing</span>, John Bogle<br /></li></ul>And the occasional Gerard Manley Hopkins poem. What I really want is another vast book to lose myself in, like <span style="font-style: italic;">House of Leaves</span>, <span style="font-style: italic;">Infinite Jest</span>, <span style="font-style: italic;">The Brothers Karamazov</span> or <span style="font-style: italic;">Jonathan Strange</span> — I guess they don&#8217;t grow on trees though.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>jml<span class='comment-date'> on 2008-10-17 12:56</span></div>
+<div class='content'>
+Thanks for the recommendations Benny.<BR/><BR/>I&#8217;ve given up on Neal Stephenson. <I>Cryptonomicon</I> was great, but the follow-up, <I>Quicksilver</I> was pretty terrible from start to finish.<BR/><BR/>I&#8217;ll have a look at USA though.</div>
+</div>
+<div class='comment'>
+<div class='author'>Benny<span class='comment-date'> on 2008-10-17 10:39</span></div>
+<div class='content'>
+You could go for USA, John Dos Passos, or Neal Stephenson, if you like that sort of thing. Or A Suitable Boy.</div>
+</div>
+<div class='comment'>
+<div class='author'>jml<span class='comment-date'> on 2008-10-16 10:02</span></div>
+<div class='content'>
+Thanks Der :)<BR/><BR/>Good idea Bice, it&#8217;s probably the perfect thing for the long haul flight. I wonder if the bookstore is still open.</div>
+</div>
+<div class='comment'>
+<div class='author'>Bice Dibley<span class='comment-date'> on 2008-10-16 09:15</span></div>
+<div class='content'>
+I suggest <I>Perdido Street Station</I>. It&#8217;s not as bad as you think.</div>
+</div>
+<div class='comment'>
+<div class='author'>Cabernet Leather<span class='comment-date'> on 2008-10-16 05:59</span></div>
+<div class='content'>
+I was just about to suggest that you update this blog more often. It&#8217;s always a pleasure to read.<BR/><BR/>Have fun in London!</div>
+</div>
+</div>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Jonathan Lange
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->
