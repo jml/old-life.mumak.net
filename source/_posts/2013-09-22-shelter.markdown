@@ -1,0 +1,77 @@
+---
+layout: post
+title: "Shelter"
+date: 2013-09-22 14:17
+comments: true
+categories: alphabet-supremacy
+---
+
+We don't have to read
+[_A Canticle for Leibowitz_](http://en.wikipedia.org/wiki/A_Canticle_for_Leibowitz)
+for long before we get to the fallout shelter.
+
+* * * *
+
+**Warning:** spoilers follow.  _A Canticle for Leibowitz_ is a great book, and
+it would be a great pity if you were to read this little essay without reading
+the book first.  I can't get
+[Octopress's excerpt feature](http://octopress.org/docs/blogging/plugins/) to
+work yet, so here's the warning again:
+
+**Spoilers follow.  Stop reading now.**
+
+* * * *
+
+<!--more-->
+
+When we get there, we discover the remnants of a civilization that managed to
+incinerate itself despite all of its wealth, power, and knowledge.  All that
+remains within the crumbling concrete structure are bones and a few scraps of
+paper.
+
+It would not be fair to say that _Canticle_ is primarily about the question of
+where we can find safety -- if anything, it is about the two-edged nature of
+knowledge -- but places of refuge are a theme throughout the book, and their
+problems mirror the problems of the human condition.
+
+The fallout shelter itself is long, long disused.  When Brother Francis finds
+it, he marvels at its engineering and is boggled by its terminology, thinking
+perhaps that a fallout is a kind of salamander.  And yet, for all of its
+technological wonder, he finds in it the bones of its occupants.  As everyone
+who lives after the "flame deluge" knows, knowledge is not enough to spare one
+from destruction.
+
+And yet, Brother Francis belongs to an order of monks dedicated to preserving
+the knowledge of the past.  Their abbey guards sacred, original texts – the
+Memorabilia – protecting it both from the ravages of time and from an angry
+populace that has come to resent all book-learning.
+
+Protecting it also from kings.  Much as in
+[Harry Potter and the Methods of Rationality](http://hpmor.org), the monks
+come to believe that scientific knowledge will inevitably be abused by those
+with political power.  Thus they are divided, for although they begin by
+sheltering this knowledge from a hurt and angry world, they must eventualy do
+their best from allowing a greedy, gluttonous world to devour it, and consume
+it for its own violent purposes.
+
+Thus, that which shelters also imprisons.  That which makes the abbey a place
+of safety for scholars, monks, and ancient texts also makes it an ideal
+military outpost.
+
+Even the spiritual safety of the Church is questioned.  Yes, there is much
+wisdom there, and a long, long historical perspective that scientists and
+politicians seem to lack.  But there is also bickering and infighting, spying
+and political intrigue, cowardice and lying.
+
+At one point, [Miller](http://en.wikipedia.org/wiki/Walter_M._Miller,_Jr.)
+refers to a line from G. K. Chesterton.  When asked "what is wrong with the
+world?", Chesterton replied, "I am".  Whether in a monastery or a university
+or a parliament or a hermit's hut, we can find no true shelter, for we always
+bring the storm within ourselves.
+
+The final parts of the book pit the ultimate forms of shelter against each
+other.  On one side, a doctor contends for the merciful sleep of death, where
+one is surely safe from the very real suffering in this life.  On the other
+side, a priest offers the hope of salvation.  Where should one seek refuge?
+In _Canticle_, Miller raises the question, and leaves us to find our own
+answer.

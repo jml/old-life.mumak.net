@@ -4,7 +4,7 @@
 	<title><![CDATA[Echo and Bounce]]></title>
 	<link href="http://life.mumak.net/atom.xml" rel="self"/>
 	<link href="http://life.mumak.net/"/>
-	<updated>2013-09-15T14:19:46+01:00</updated>
+	<updated>2013-09-22T15:38:10+01:00</updated>
 	<id>http://life.mumak.net/</id>
 	<author>
 		<name><![CDATA[Jonathan Lange]]></name>
@@ -12,6 +12,93 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Shelter]]></title>
+		
+		<link href="http://life.mumak.net/2013/09/shelter.html"/>
+		<updated>2013-09-22T14:17:00+01:00</updated>
+		<id>http://life.mumak.net/2013/09/shelter</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>We don&rsquo;t have to read
+<a href="http://en.wikipedia.org/wiki/A_Canticle_for_Leibowitz"><em>A Canticle for Leibowitz</em></a>
+for long before we get to the fallout shelter.</p>
+
+<hr />
+
+<p><strong>Warning:</strong> spoilers follow.  <em>A Canticle for Leibowitz</em> is a great book, and
+it would be a great pity if you were to read this little essay without reading
+the book first.  I can&rsquo;t get
+<a href="http://octopress.org/docs/blogging/plugins/">Octopress&rsquo;s excerpt feature</a> to
+work yet, so here&rsquo;s the warning again:</p>
+
+<p><strong>Spoilers follow.  Stop reading now.</strong></p>
+
+<hr />
+
+<!--more-->
+
+
+<p>When we get there, we discover the remnants of a civilization that managed to
+incinerate itself despite all of its wealth, power, and knowledge.  All that
+remains within the crumbling concrete structure are bones and a few scraps of
+paper.</p>
+
+<p>It would not be fair to say that <em>Canticle</em> is primarily about the question of
+where we can find safety &mdash; if anything, it is about the two-edged nature of
+knowledge &mdash; but places of refuge are a theme throughout the book, and their
+problems mirror the problems of the human condition.</p>
+
+<p>The fallout shelter itself is long, long disused.  When Brother Francis finds
+it, he marvels at its engineering and is boggled by its terminology, thinking
+perhaps that a fallout is a kind of salamander.  And yet, for all of its
+technological wonder, he finds in it the bones of its occupants.  As everyone
+who lives after the &ldquo;flame deluge&rdquo; knows, knowledge is not enough to spare one
+from destruction.</p>
+
+<p>And yet, Brother Francis belongs to an order of monks dedicated to preserving
+the knowledge of the past.  Their abbey guards sacred, original texts – the
+Memorabilia – protecting it both from the ravages of time and from an angry
+populace that has come to resent all book-learning.</p>
+
+<p>Protecting it also from kings.  Much as in
+<a href="http://hpmor.org">Harry Potter and the Methods of Rationality</a>, the monks
+come to believe that scientific knowledge will inevitably be abused by those
+with political power.  Thus they are divided, for although they begin by
+sheltering this knowledge from a hurt and angry world, they must eventualy do
+their best from allowing a greedy, gluttonous world to devour it, and consume
+it for its own violent purposes.</p>
+
+<p>Thus, that which shelters also imprisons.  That which makes the abbey a place
+of safety for scholars, monks, and ancient texts also makes it an ideal
+military outpost.</p>
+
+<p>Even the spiritual safety of the Church is questioned.  Yes, there is much
+wisdom there, and a long, long historical perspective that scientists and
+politicians seem to lack.  But there is also bickering and infighting, spying
+and political intrigue, cowardice and lying.</p>
+
+<p>At one point, <a href="http://en.wikipedia.org/wiki/Walter_M._Miller,_Jr.">Miller</a>
+refers to a line from G. K. Chesterton.  When asked &ldquo;what is wrong with the
+world?&rdquo;, Chesterton replied, &ldquo;I am&rdquo;.  Whether in a monastery or a university
+or a parliament or a hermit&rsquo;s hut, we can find no true shelter, for we always
+bring the storm within ourselves.</p>
+
+<p>The final parts of the book pit the ultimate forms of shelter against each
+other.  On one side, a doctor contends for the merciful sleep of death, where
+one is surely safe from the very real suffering in this life.  On the other
+side, a priest offers the hope of salvation.  Where should one seek refuge?
+In <em>Canticle</em>, Miller raises the question, and leaves us to find our own
+answer.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -530,25 +617,6 @@ You are to be marooned on a Desert Island with a 1st generation iPod. You are gi
 This comment has been removed by the author.</div>
 </div>
 </div>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[History]]></title>
-		
-		<link href="http://life.mumak.net/2013/04/history.html"/>
-		<updated>2013-04-21T00:00:00+01:00</updated>
-		<id>http://life.mumak.net/2013/04/history</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p></p>
-				
-			]]>
-			<![CDATA[<div class='post'>
-<br />I&#8217;ve been fascinated by English history since I first watched <a href="http://www.imdb.com/title/tt0044760/?ref_=fn_al_tt_1"><i>Ivanhoe</i></a>&nbsp;as a young boy. &nbsp;They&#8217;ve got knights and barons and druids and archers and juries and parliaments and roses and Roundheads and Romans and Robin Hood. &nbsp;They&#8217;ve nefarious hunchbacks and mad kings and warrior queens. &nbsp;Who could ask for anything more?<br /><br />And, despite being <a href="http://www.amazon.co.uk/Fatal-Shore-Robert-Hughes/dp/0099448548/">Australian</a>, I think of British history as <i>my</i> history. Well, at least up until <a href="http://en.wikipedia.org/wiki/First_Fleet">1788</a>, and maybe even up until <a href="http://en.wikipedia.org/wiki/Australian_Federation">1901</a>. This partly comes from my mother &amp; her family being British emigrants and partly from consuming lots of British media, like the aforementioned Ivanhoe.<br /><br />Of course, technically I&#8217;m not British, I&#8217;m Irish. &nbsp;Mum was born in Dublin, and thus I&#8217;m an Irish citizen. &nbsp;When we were young she used to talk about her Irish granny and her thick Irish brogue and what not, but if ever our family talked about the Old Country (we didn&#8217;t) then really it&#8217;s Middlesex, England. I ended up with a vaguely English accent, which has only got worse (better) since moving to London.<br /><br />Certainly I didn&#8217;t know any of the stories of Ireland, at least not beyond St. Patrick. &nbsp;I could spin you a yarn about Captain Cook discovering the world, or Elizabeth I defeating the Spanish armada, or the noble, Christian Romano-Celts bravely failing to hold off an invasion from the smelly, pagan Germanic tribes, or the Jacobites toasting the King over the water, or Saxon peasants farming cows in order to serve the Norman lords their boeuf, but precious little about Ireland. &nbsp;So for a long time I was on the lookout for a book about Irish history, one that would give me an overview of the whole thing.<br /><br />The closest one I&#8217;ve found wasn&#8217;t <i>exactly</i> about Irish history, but was a fascinating book nonetheless. &nbsp;It&#8217;s <i>The Isles</i> by Norman Davies, and it aims to be a history of the British Isles spanning from the <a href="http://www.youtube.com/watch?v=qAXzzHM8zLw">dawn of time</a>&nbsp;to the present day. There are three unusual things about it that are worth calling out.<br /><br />The first is that Davies is deliberately setting out to redress an imbalance in the way British history is taught. &nbsp;According to him, what is currently called British history is really <i>English</i>&nbsp;history. &nbsp;This seems true enough to me. &nbsp;The Magna Carta, Boadicea and Cromwell all have next to nothing to do with Scotland or Ireland [availability heuristic]. &nbsp;Hence the title, which<br />specifically avoids labelling the archipelago on which your correspondent&#8217;s posterior is now comfortably planted. It is the central conceit of the book: he tries to tell an Irish history together with an English history, a Scottish history and a Welsh history.<br /><br />He takes it further though, seizing every opportunity he can to point out this confusion at the heart of British identity. &nbsp;In his discussion of the Victorian era, he even goes to the lengths of referring to an English &#8220;inner empire&#8221; which forms the blueprint for the British &#8220;outer empire&#8221;. &nbsp;He points out that Shakespeare got his geography wrong when he called England &#8220;this scepter&#8217;d isle&#8221;, and that the thing that makes <i>Land of Hope and Glory</i> work is that the land in question is conveniently left unspecified.<br /><br />The second quirk is in Davies&#8217;s nomenclature. &nbsp;He insists on trying to spell the names of people and places the way they would have. &nbsp;Thus, William the Conquerer is always &#8220;Guillaume&#8221; because he was French, you know. &nbsp;It does not work at all in the pre-historic parts (the &#8220;Midnight Isles&#8221;? Really?), but works surprisingly well once history actually gets going. &nbsp;You can&#8217;t help but think of King James I of England differently when you are &nbsp;reminded every time his name is mentioned that he always signed himself &#8220;Jacques&#8221;.<br /><br />Third, he bangs on about Europe. Instead of keeping his island history properly insular, he is constantly referring to how political and economic forces on the mainland – I mean, the Continent – have driven events in Britain and Ireland. It&#8217;s almost as if he thinks that the Sleeve – sorry, the Channel – is small enough to swim across.<br /><br />It&#8217;s these three things that make <i>The Isles</i>&nbsp;what it is. &nbsp;Whether people praise it or condemn it, they generally do so for these three reasons. Otherwise, the book is entertaining and well written. &nbsp;Since I was reading it to cure myself of ignorance I am the worst possible judge of its accuracy. The best I can say there is that whatever fibs Davies tells are at least plausible. &nbsp;It is colossally heavy though, so if you can get an electronic copy, do so.<br /><br />If you don&#8217;t have the time, may I suggest <i><a href="http://www.amazon.co.uk/1066-All-That-W-C-Sellar/dp/0413772705/">1066 and All That</a>&nbsp;</i>instead?<br /><br />Next week&#8217;s word: island.<br /><br /><span style="font-size: 13px;">This post is part of the&nbsp;</span><a href="http://life.mumak.net/2013/01/the-alphabet-supremacy.html" style="font-size: 13px;">Alphabet Supremacy</a><span style="font-size: 13px;">&nbsp;project, a collaboration between myself and&nbsp;</span><a href="http://life.metagnome.net/" style="font-size: 13px;">Bice Dibley</a><span style="font-size: 13px;">.</span><br /></div>
 ]]>
 		</content>
 	</entry>
